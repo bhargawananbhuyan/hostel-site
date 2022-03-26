@@ -35,9 +35,10 @@ function index() {
 				</header>
 				<div className="grid place-items-center mt-[100px] mb-[200px] font-bold font-playfair text-black">
 					<div className="text-3xl leading-relaxed max-w-3xl text-center">
-						Waves of hope tumbling against the young heart's shore; No feeble call it
-						is, but destiny's roar; The journey from 'Boy' to 'Man', the SYMPHONY of
-						spring; Needs nothing, but four years in 'Four'
+						Waves of hope tumbling against the young heart&apos;s shore; No feeble call
+						it is, but destiny&apos;s roar; The journey from &apos;Boy&apos; to
+						&apos;Man&apos;, the SYMPHONY of spring; Needs nothing, but four years in
+						&apos;Four&apos;
 					</div>
 				</div>
 
@@ -150,10 +151,10 @@ function index() {
 							Diamond Jubilee this year, it has a legacy of many decades with past
 							boarders in hundreds so many of which located at different places of the
 							world. This web page can be a medium for communication and bring the
-							family members of the hostel closure. In today’s world It has become
-							essential to have a digital platform. The web page can act like a face
-							of the hostel. The hostel boarders not only can express themselves but
-							can share their talents and activities on regular basis. I hope the
+							family members of the hostel closure. In today&apos;s world It has
+							become essential to have a digital platform. The web page can act like a
+							face of the hostel. The hostel boarders not only can express themselves
+							but can share their talents and activities on regular basis. I hope the
 							boarders will feel encouraged to express their creativity in the web
 							page. Long live Hostel 4, long live AEC.
 						</p>
