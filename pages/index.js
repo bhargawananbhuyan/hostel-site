@@ -232,7 +232,7 @@ function index() {
 							width="450"
 							height="300"
 							style={{ border: 0 }}
-							allowfullscreen=""
+							allowFullScreen=""
 							loading="lazy"
 						></iframe>
 					</div>
