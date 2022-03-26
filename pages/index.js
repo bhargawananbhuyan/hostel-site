@@ -3,7 +3,11 @@ import Link from "next/link";
 
 function index() {
 	return (
-		<div>
+		<div className="w-screen h-screen">
+			{/* <div className="w-screen h-screen absolute top-0 left-0 z-[-1] after:content-[''] after:absolute after:w-screen after:h-screen after:top-0 after:left-0 after:bg-black after:opacity-[.65]">
+				<Image src={"/hostel-hero.jpg"} layout="fill" className="object-cover" />
+			</div> */}
+
 			<div className="max-w-screen-xl mx-auto px-5">
 				<header className="flex items-center justify-between text-black py-14">
 					<div className="flex items-center gap-x-5">
@@ -238,10 +242,7 @@ function index() {
 					</div>
 				</div>
 				<div className="text-center mt-14">
-					Made with ❤️ by{" "}
-					<a href="https://bhargawanan.xyz" className="underline decoration-dotted">
-						bhargawanan.
-					</a>
+					Made with ❤️ and 🚬 at Hostel 4, Assam Engineering College
 				</div>
 			</footer>
 		</div>
