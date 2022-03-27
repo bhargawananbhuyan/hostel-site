@@ -95,25 +95,24 @@ function index() {
 				<div className="mt-[200px] text-center">
 					<h1 className="text-4xl font-playfair font-bold">Life at Hostel 4</h1>
 					<p className="text-lg mt-10 leading-loose">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus
-						sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus
-						dolor purus non enim praesent elementum facilisis leo, vel fringilla est
-						ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis
-						scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu
-						volutpat odio facilisis mauris sit amet massa vitae tortor condimentum
-						lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis
-						nunc sed augue lacus, viverra vitae congue eu, consequat ac felis donec et
-						odio pellentesque diam volutpat commodo sed egestas egestas fringilla
-						phasellus faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit
-						ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna,
-						porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel
-						fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim
-						lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci
-						sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor
-						condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices
-						in iaculis nunc sed augue lacus, viverra vitae congue eu, consequat ac felis
-						donec et odio pellentesque diam volutpat commodo sed egestas egestas
-						fringilla phasellus faucibus.
+						Life in hostel four is amazing. The four years in four really transforms a
+						budding and enthusiastic boy into a responsible man ready to take on the
+						challenges life poses onto him. Sports activities in the evening such as
+						volleyball, cricket etc. act as necessary stress busters after long hours of
+						classes and practicals. There are plenty of facilities for the boarders
+						which includes table tennis room, common room with a tv for the
+						entertainment, volleyball court and much more. The boarders have access to
+						engage in sports activities in the nearby pyrokinesis field. In addition to
+						that students can also avail the gym facilities in the hostel. Beautiful
+						natural landscape surrounding the hostel is a treat to the eyes. It is a
+						great place to make friends who become lifelong companions. The hostel life
+						also teaches self-discipline and the value of time. It teaches one to be
+						self-dependent and work hard to achieve their goals. It also inculcates the
+						values of team spirit and cooperation. Endless memories and anecdotes get
+						created and time flies. Finally, these memories are what every hosteller
+						take away that make them nostalgic and bring a smile in their faces.
+						&quot;Ye chaar(4) saal zindegi ke chaar(4) saal nahi the.. ye chaar(4) saal
+						ek alag hi zindegi thi&quot;
 					</p>
 				</div>
 
