@@ -4,14 +4,14 @@ import Link from "next/link";
 function index() {
 	return (
 		<div className="w-screen h-screen">
-			{/* <div className="w-screen h-screen absolute top-0 left-0 z-[-1] after:content-[''] after:absolute after:w-screen after:h-screen after:top-0 after:left-0 after:bg-black after:opacity-[.65]">
+			<div className="w-screen h-screen absolute top-0 left-0 z-[-1] after:content-[''] after:absolute after:w-screen after:h-screen after:top-0 after:left-0 after:bg-black after:opacity-[.65]">
 				<Image src={"/hostel-hero.jpg"} layout="fill" className="object-cover" />
-			</div> */}
+			</div>
 
 			<div className="max-w-screen-xl mx-auto px-5">
-				<header className="flex items-center justify-between text-black py-14">
-					<div className="flex items-center gap-x-5">
-						{/* <Image src={"/logo.png"} width={60} height={60} /> */}
+				<header className="flex items-center justify-between text-white py-14">
+					<div className="flex items-center gap-x-2.5">
+						<Image src={"/logo.png"} width={60} height={60} />
 						<Link href="/">
 							<a className="max-w-[275px] w-full text-xl font-semibold leading-normal font-playfair">
 								the hostel four of assam engineering college
@@ -37,7 +37,7 @@ function index() {
 						</Link>
 					</nav>
 				</header>
-				<div className="grid place-items-center mt-[100px] mb-[200px] font-bold font-playfair text-black">
+				<div className="grid place-items-center mt-[100px] mb-[200px] font-bold font-playfair text-white">
 					<div className="text-3xl leading-relaxed max-w-3xl text-center">
 						Waves of hope tumbling against the young heart&apos;s shore; No feeble call
 						it is, but destiny&apos;s roar; The journey from &apos;Boy&apos; to
@@ -127,12 +127,18 @@ function index() {
 					<div
 						className="bg-gray-200"
 						style={{ gridRow: "1 / span 2", gridColumn: "1/ span 2" }}
-					/>
-					<div className="bg-gray-200" style={{ gridRow: "1", gridColumn: "3" }} />
+					>
+						<img src={"/lg-1.jpg"} className="h-full w-full object-cover" alt="" />
+					</div>
+					<div className="bg-gray-200" style={{ gridRow: "1", gridColumn: "3" }}>
+						<img src={"/lg-2.jpg"} className="h-full w-full object-cover" alt="" />
+					</div>
 					<div
 						className="bg-gray-200"
 						style={{ gridRow: "2 / span 2", gridColumn: "3 / span 2" }}
-					/>
+					>
+						<img src={"/lg-3.jpg"} className="h-full w-full object-cover" alt="" />
+					</div>
 				</div>
 
 				<div className="my-[150px] flex items-center justify-center gap-24 px-10">
@@ -168,12 +174,13 @@ function index() {
 				<div className="mb-[200px]">
 					<h1 className="text-4xl font-playfair font-bold">Gallery</h1>
 					<div className="flex gap-8 overflow-scroll mt-14 hide-scrollbar">
-						{Array.from(Array(10).keys()).map((item, i) => (
-							<div
-								key={i}
-								className="w-[300px] h-[300px] bg-gray-200 flex-shrink-0 p-5"
-							>
-								Photo {item + 1}
+						{Array.from(Array(4).keys()).map((i) => (
+							<div key={i} className="w-[300px] h-[300px] bg-gray-200 flex-shrink-0">
+								<img
+									src={`/gal-${i + 1}.jpg`}
+									className="h-full w-full object-cover"
+									alt=""
+								/>
 							</div>
 						))}
 					</div>
