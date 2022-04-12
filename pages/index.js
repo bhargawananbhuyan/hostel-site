@@ -30,7 +30,7 @@ function index() {
 						<Link href="/">
 							<a>about</a>
 						</Link>
-						<Link href="/">
+						<Link href="/Contact">
 							<a>contact</a>
 						</Link>
 						<Link href="/">
