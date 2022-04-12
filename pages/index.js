@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 import Navbar from "./components/Navbar"
-import Footer from "./components/Footer"
+
 
 function index() {
 	return (
@@ -161,7 +161,7 @@ function index() {
 				</div>
 			</div>
 
-			<Footer />
+		
 		</div>
 	)
 }
