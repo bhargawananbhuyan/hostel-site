@@ -1,7 +1,6 @@
-import Image from "next/image"
+import Image from "next/image";
 
-import Navbar from "./components/Navbar"
-import Footer from "./components/Footer"
+import Link from 'next/link'
 
 function index() {
 	return (
@@ -11,7 +10,35 @@ function index() {
 			</div>
 
 			<div className="max-w-screen-xl mx-auto px-5">
-				<Navbar />
+			<header className="flex items-center justify-between text-white py-14">
+					<div className="flex items-center gap-x-2.5">
+						<Image src={"/logo.png"} width={60} height={60} />
+						<Link href="/">
+							<a className="max-w-[275px] w-full text-xl font-semibold leading-normal font-playfair">
+								the hostel four of assam engineering college
+							</a>
+						</Link>
+					</div>
+
+					<nav className="flex gap-x-0 font-playfair lg:gap-x-12">
+						<Link href="/">
+							<a>home</a>
+						</Link>
+						<Link href="/">
+							<a>events</a>
+						</Link>
+						<Link href="/">
+							<a>about</a>
+						</Link>
+						<Link href="/">
+							<a>contact</a>
+						</Link>
+						<Link href="/">
+							<a>alumni</a>
+						</Link>
+					</nav>
+				</header>
+   
 				<div className="grid place-items-center mt-[100px] mb-[200px] font-bold font-playfair text-white">
 					<div className="text-3xl leading-relaxed max-w-3xl text-center">
 						Waves of hope tumbling against the young heart&apos;s shore; No feeble call
@@ -161,9 +188,73 @@ function index() {
 				</div>
 			</div>
 
-			<Footer />
+			<footer className="bg-[#212121] text-white py-20">
+				<div className="max-w-screen-xl mx-auto px-14 grid grid-cols-3">
+					<div>
+						<h2 className="text-2xl font-playfair font-bold">Quick links</h2>
+						<div className="flex flex-col gap-y-3.5 text-lg mt-8 text-gray-300">
+							<Link href="/">
+								<a>About</a>
+							</Link>
+							<Link href="/">
+								<a>Contact</a>
+							</Link>
+							<Link href="/">
+								<a>Events</a>
+							</Link>
+							<Link href="/">
+								<a>Alumni</a>
+							</Link>
+							<Link href="/">
+								<a>Boarders</a>
+							</Link>
+							<Link href="/">
+								<a>Dev team</a>
+							</Link>
+						</div>
+					</div>
+					<div>
+						<h2 className="text-2xl font-playfair font-bold">External links</h2>
+						<div className="flex flex-col gap-y-3.5 text-lg mt-8 text-gray-300">
+							<Link href="/">
+								<a>AEC</a>
+							</Link>
+							<Link href="/">
+								<a>ASTU</a>
+							</Link>
+							<Link href="/">
+								<a>DTE</a>
+							</Link>
+							<Link href="/">
+								<a>MHRD</a>
+							</Link>
+							<Link href="/">
+								<a>Swayam</a>
+							</Link>
+						</div>
+					</div>
+					<div>
+						<h2 className="text-2xl font-playfair font-bold mb-8">Address</h2>
+						<p className="text-lg leading-loose text-gray-300">
+							Hostel 4,Assam Engineering College, Guwahati-13, Assam
+						</p>
+						<iframe
+							className="mt-8"
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.637253509666!2d91.65498061495357!3d26.143367983465048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a45d990ff9cf5%3A0xb62320ed69385b6f!2sAEC%20Hostel%204%20road!5e0!3m2!1sen!2sin!4v1648189549691!5m2!1sen!2sin"
+							width="450"
+							height="300"
+							style={{ border: 0 }}
+							allowFullScreen=""
+							loading="lazy"
+						></iframe>
+					</div>
+				</div>
+				<div className="text-center mt-14">
+					Made with ❤️ and 🚬 at Hostel 4, Assam Engineering College
+				</div>
+			</footer>
 		</div>
-	)
+	);
 }
 
-export default index
+export default index;
