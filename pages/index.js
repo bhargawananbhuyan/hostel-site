@@ -1,7 +1,7 @@
-import Image from "next/image";
+import Image from "next/image"
 
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 
 function index() {
 	return (
@@ -11,7 +11,7 @@ function index() {
 			</div>
 
 			<div className="max-w-screen-xl mx-auto px-5">
-		
+				<Navbar />
 				<div className="grid place-items-center mt-[100px] mb-[200px] font-bold font-playfair text-white">
 					<div className="text-3xl leading-relaxed max-w-3xl text-center">
 						Waves of hope tumbling against the young heart&apos;s shore; No feeble call
@@ -161,9 +161,9 @@ function index() {
 				</div>
 			</div>
 
-		<Footer/>
+			<Footer />
 		</div>
-	);
+	)
 }
 
-export default index;
+export default index
